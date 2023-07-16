@@ -35,7 +35,7 @@ nav li a{
 }
 .btn-primary{
     margin: 18px 25px;
-    padding: 10px 10px;
+    padding: 15px 10px;
     color: white;
     background-color: palevioletred;
     border: none;
@@ -69,4 +69,26 @@ nav li a{
     nav {
         flex-direction: column;
     }
+}
+/* main section start */
+main{
+    max-width: 1040px;
+    margin: 0px auto;
+}
+.team-container{
+    display: flex;
+    align-items: center;
+}
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.team-content{
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 20px;
+}
+.team-img-container img {
+    width: 280px;
 }
